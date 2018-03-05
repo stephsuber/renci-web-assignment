@@ -1,0 +1,143 @@
+/*
+Theme Name: Twenty Sixteen
+Description: Styles for the Biography template.
+*/
+
+div#white-background {
+    display: none !important;
+}
+
+#primary {
+	max-width: 960px;
+    margin: 0 auto;
+}
+
+body {
+	/*font-family: 'Muli', Arial, sans-serif;*/
+	color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: 'Goudy Bookletter 1911', Georgia, serif;*/
+	color: #237A97;
+}
+
+h1 {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+p {
+	line-height: 1.7em;
+	letter-spacing: .001em;
+	font-size: 1em;
+	margin: 0 0 15px;
+}
+
+a {
+	color: #666;
+}
+
+#primary ul {
+	padding: 0 20px !important;
+}
+
+li {
+	line-height: 1.5em;
+}
+
+#masthead {
+	padding-top: 0;
+	padding-bottom: 36px;
+}
+
+.site-branding {
+	margin: 0 auto;
+}
+
+.site-title, .site-description {
+	display: none;
+}
+
+.custom-logo {
+	max-width: 90px;
+}
+
+.content-area {
+	width: 100%;
+}
+
+.site-content {
+	padding: 0 15%;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #008DA8;
+	float: right;
+}
+
+a:hover {
+	text-decoration: none;
+	color: 237A97;
+}
+
+.profile-photo {
+	width: 80%;
+    margin: 0 auto;
+    display: inherit;
+    margin-bottom: 18px;
+}
+
+#contact-info {
+	margin-bottom: 10px;
+}
+
+hr {
+	margin: 32px 0;
+}
+
+.photo-section {
+	float: left;
+    width: 25%;
+}
+
+.summary-section {
+	float: left;
+    width: 75%;
+}
+
+@media screen and (max-width: 767px) {
+	#primary {
+		padding: 0;
+	}
+
+	h3 {
+		margin: 20px;
+	}
+
+	.education {
+		margin: 0 20px;
+	}
+
+	.photo-section {
+		float: none;
+		width: 45%;
+		margin: 0 auto;
+		margin-bottom: 0;
+	}
+
+	.summary-section {
+		float: none;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}

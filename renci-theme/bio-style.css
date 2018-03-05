@@ -1,0 +1,159 @@
+/*
+Theme Name: Twenty Seventeen Child
+Description: Styles for the Bio custom post type.
+*/
+
+/*.single-bio body {
+	font-family: 'Muli', Arial, sans-serif;
+	color: #666;
+}
+
+.single-bio h1, h2, h3, h4, h5, h6 {
+	font-family: 'Goudy Bookletter 1911', Georgia, serif;
+	color: #237A97;
+}*/
+
+.single-bio #primary {
+	width: 60%;
+	margin: 0 auto;
+	z-index: 10;
+	position: relative;
+}
+
+.single-bio h1 {
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+.single-bio h3 {
+	margin: 20px 0;
+}
+
+.single-bio p {
+	line-height: 1.7em;
+	letter-spacing: .001em;
+	font-size: 1em;
+	margin: 0 0 15px;
+}
+
+.single-bio a {
+	color: #666;
+}
+
+.single-bio #masthead {
+	padding-top: 0;
+	padding-bottom: 36px;
+}
+
+.single-bio .site-branding {
+	margin: 0 auto;
+}
+
+.single-bio .site-title, .site-description {
+	display: none;
+}
+
+.single-bio .custom-logo {
+	max-width: 90px;
+}
+
+.single-bio .content-area {
+	width: 100%;
+}
+
+.single-bio .site-content {
+	padding: 0 15%;
+}
+
+.single-bio .arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #008DA8;
+	float: right;
+}
+
+.single-bio a:hover {
+	text-decoration: none;
+	color: 237A97;
+}
+
+.single-bio .profile-photo {
+	width: 100%;
+    margin: 0 auto;
+    display: inherit;
+    margin-bottom: 18px;
+    max-width: 375px;
+    float: none;
+}
+
+.single-bio .profile-photo img {
+	width: 100%;
+    height: auto;
+}
+
+.single-bio #primary-title {
+	font-weight: 700;
+    font-size: 1.1em;
+}
+
+.single-bio #contact-info {
+	margin-bottom: 10px;
+}
+
+.single-bio hr {
+	margin: 32px 0;
+}
+
+.single-bio .photo-section {
+	float: left;
+    width: 40%;
+}
+
+.single-bio .summary-section {
+	float: left;
+    width: 60%;
+}
+
+.single-bio #summary-wrap {
+	padding: 10px 20px;
+    background: rgb(249, 249, 249);
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+	.single-bio .summary-section {
+		width: 100%;
+	}
+
+	.single-bio .photo-section {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.single-bio #primary {
+		padding: 0;
+		width: 90%;
+	}
+
+	.single-bio h3 {
+		margin: 20px;
+	}
+
+	.single-bio .education {
+		margin: 0 20px;
+	}
+
+	.single-bio .photo-section {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.single-bio .summary-section {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
